@@ -1,0 +1,30 @@
+show system uptime | no-more
+show version | no-more
+show version invoke all-routing-engine | no-more
+request chassis routing-engine master switch check  
+show task replication | no-more
+show chassis hardware | no-more
+show chassis fabric summary | no-more
+show chassis fpc | no-more
+show chassis fpc detail | no-more 
+show chassis fabric fpc | no-more
+show chassis fabric plane-location | no-more
+show chassis routing-engine | no-more
+show chassis environment | no-more
+show chassis environment cb |no-more
+show chassis craft-interface | no-more 
+show isis adjacency | no-more
+show isis adjacency detail | no-more
+show ospf neighbor | no-more
+show bgp summary | no-more
+show bgp summary | except / | no-more
+show ldp neighbor | no-more
+show ldp neighbor detail | no-more
+show ldp session | no-more
+show ldp session detail | no-more
+show interface description | no-more
+show interfaces brief | no-more
+show configuration chassis | no-more
+show configuration | display set | match graceful  
+show configuration | display set | match nonstop
+show configuration | no-more
