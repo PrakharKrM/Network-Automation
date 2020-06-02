@@ -1,0 +1,7 @@
+show running-config
+show interface description
+show ip protocols
+show ip ospf neighbor
+show ip isis adjacency
+show ip bgp summary
+show ip eigrp neighbor
