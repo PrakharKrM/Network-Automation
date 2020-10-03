@@ -16,6 +16,7 @@ for i in len(command):
 	with open(r"output of"+str(command_strip[i]), mode="w") as outputfile:
 		terminal_output = ssh.exec_command(command[i])
 		lines = terminal_output.readlines()
+		outputfile.write("\n Following is the output of device"+host+"\n")
 		outputfile.write(lines)
 
 ssh.disconnect()
