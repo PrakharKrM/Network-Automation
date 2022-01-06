@@ -1,4 +1,4 @@
 # Network-Automation
-This reporsitory made only for network engineers who want to implement python codes in his production environment. 
+This reporsitory made for network engineers who want to implement python codes in his production environment to eliminate repetitive task and saves some time. 
 
-For your suggestion and feedback are highly recommended. 
+Suggestion and feedback are highly appreciated. 
